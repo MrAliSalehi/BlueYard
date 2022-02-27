@@ -592,12 +592,12 @@ body {
   }
 }
 .header__logo {
-  width: 40px;
+  width: 120px;
   height: auto;
 }
 @media only screen and (min-width: 768px) {
   .header__logo {
-    width: 55px;
+    width: 160px;
   }
 }
 .footer__wrapper {
