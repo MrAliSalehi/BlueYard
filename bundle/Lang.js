@@ -16,7 +16,7 @@ var languages = {
     liberated: "liberated",
     knowledge: "knowledge & data",
     about: "about",
-    blueyard: "blueyard",
+    blueyard2: "blueyard",
   },
 
   tr: {
@@ -30,12 +30,12 @@ var languages = {
     web3: "YAZILIM",
     programmable: "BİZE ULAŞIN",
     biology: "İLETİŞİM",
-    breakthrough: "breakthrough",
-    computation: "computation & engineering",
+    breakthrough: "GRAFİK TASARIM & 3B ÇÖZÜMLER",
+    computation: "3 BOYUT",
     liberated: "BİZ KİMİZ",
     knowledge: "EKİP",
     about: "HAKKIMIZDA",
-    blueyard: "DPV",
+    blueyard2: "DPV",
   },
 };
 
