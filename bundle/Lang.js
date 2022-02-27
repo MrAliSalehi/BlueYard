@@ -1,19 +1,35 @@
-//this comment is just for testing purposes
+//language dictionaries
 var languages = {
-  english: {
-    test: "english test",
-  },
-  Turkish: {
-    test: "turkish test",
-  },
+  en: { begintext: "begin" },
+
+  tr: { begintext: "BAŞLAT" },
 };
 
-var dataReload = document.querySelectorAll("[data-reload]");
+//set language on load
+window.onload = function () {
+  if (window.location.hash) {
+    const multiLangElements = document.querySelectorAll("[data-lang]");
+    console.log("Elements to Change Count: " + multiLangElements.length);
 
-dataReload.forEach(function (item) {
-  item.addEventListener("click", function (e) {
-    setTimeout(function () {
+    changeContent(multiLangElements);
+  }
+};
+
+var changeContent = function (elements) {
+  var lang = window.location.hash.replace("#", "") ?? "en";
+  elements.forEach((element) => {
+    var name = element.dataset["contentname"];
+    element.textContent = languages[lang][name];
+  });
+};
+
+//refresh page to see the changes
+var getButtons = document.getElementsByClassName("language");
+console.log("Buttons Count: " + getButtons.length);
+for (var i = 0; i < getButtons.length; i++) {
+  getButtons[i].addEventListener("click", function () {
+    setTimeout(() => {
       window.location.reload();
     });
   });
-});
+}
