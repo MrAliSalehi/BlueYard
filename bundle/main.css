@@ -592,7 +592,7 @@ body {
   }
 }
 .header__logo {
-  width: 120px;
+  width: 150px;
   height: auto;
 }
 @media only screen and (min-width: 768px) {

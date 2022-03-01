@@ -1,7 +1,6 @@
 ul {
   padding: 0;
   list-style: none;
-  background: #f2f2f2;
 }
 
 ul li {
@@ -13,21 +12,19 @@ ul li {
 
 ul li a {
   display: block;
-  padding: 7px 50px;
-  color: rgb(255, 255, 255);
+  padding: 2px;
   text-decoration: none;
-  background-color: #070709;
+  background-color: transparent;
 }
 
 ul li a:hover {
-  color: #fff;
-  background: #939393;
+  transition: all 0.7s linear;
+  background-color: rgba(184, 184, 184, 0.623);
 }
 
 ul li ul.dropdown {
   min-width: 100%;
-  /* Set width of the dropdown */
-  background: #f2f2f2;
+
   display: none;
   position: absolute;
   z-index: 999;
@@ -36,9 +33,13 @@ ul li ul.dropdown {
 
 ul li:hover ul.dropdown {
   display: block;
-  /* Display the dropdown */
 }
 
 ul li ul.dropdown li {
   display: block;
+}
+.diveLang {
+  position: fixed;
+  left: 890px;
+  bottom: -18px;
 }
