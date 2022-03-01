@@ -2169,3 +2169,6 @@ body {
   margin-top: 260px;
   margin-bottom: 260px;
 }
+.instaicon {
+  max-width: 30px;
+}
