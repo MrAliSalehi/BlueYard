@@ -2137,3 +2137,11 @@ body {
   filter: blur(1.2px);
   opacity: 1;
 }
+.engineeringext-box {
+  display: table;
+  width: 100%;
+}
+.engineeringint-box {
+  display: table-cell;
+  vertical-align: middle;
+}
