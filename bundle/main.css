@@ -2140,8 +2140,31 @@ body {
 .engineeringext-box {
   display: table;
   width: 100%;
+  margin-top: 25px;
 }
-.engineeringint-box {
-  display: table-cell;
-  vertical-align: middle;
+.img2d {
+  margin-left: 175px;
+}
+.img3d {
+  margin-left: 185px;
+}
+.aboutdiv1 {
+  margin-left: -130px;
+  overflow: hidden;
+  width: 100%;
+}
+.aboutdiv2 {
+  margin-right: -130px;
+  overflow: hidden;
+  width: 100%;
+}
+.founder1 {
+  float: left;
+}
+.founder2 {
+  float: left;
+}
+.divtitleabout {
+  margin-top: 260px;
+  margin-bottom: 260px;
 }
