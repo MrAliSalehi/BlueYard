@@ -592,6 +592,7 @@ body {
   }
 }
 .header__logo {
+  background-color: transparent;
   width: 150px;
   height: auto;
 }
