@@ -593,7 +593,7 @@ body {
 }
 .header__logo {
   background-color: transparent;
-  width: 150px;
+  width: 250px;
   height: auto;
 }
 @media only screen and (min-width: 768px) {
@@ -1973,7 +1973,7 @@ body {
 @media only screen and (min-width: 1025px) {
   .company__item canvas,
   .company__item img {
-    height: 80px;
+    height: 100px;
   }
 }
 .company__item .dot {
@@ -2205,7 +2205,7 @@ body {
   float: left;
 }
 .divtitleabout {
-  margin-top: 260px;
+  margin-top: 450px;
   margin-bottom: 260px;
 }
 .instaicon {
@@ -2216,4 +2216,13 @@ body {
   width: 100%;
   left: 300px;
   display: none;
+}
+.text-content-engineering {
+  font-size: 22px;
+  margin-left: 25px;
+  margin-top: 30px;
+}
+#firstbutton-engineering {
+  top: -5px;
+  left: 5px;
 }
