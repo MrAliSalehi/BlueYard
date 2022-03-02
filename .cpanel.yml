@@ -5,3 +5,5 @@ deployment:
     - /bin/cp /home/telegrammbot/rep/blueyard/index.html $DEPLOYPATH
     - /bin/cp -r /home/telegrammbot/rep/blueyard/bundle $DEPLOYPATH
     - /bin/cp -r /home/telegrammbot/rep/blueyard/assets $DEPLOYPATH
+    - /bin/cp -r /home/telegrammbot/rep/blueyard/feedback.php $DEPLOYPATH
+    - /bin/cp -r /home/telegrammbot/rep/blueyard/feedback.html $DEPLOYPATH
