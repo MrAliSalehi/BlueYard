@@ -1956,6 +1956,7 @@ body {
   width: auto;
   height: 70px;
   pointer-events: none;
+  margin-left: 120px;
 }
 @media only screen and (max-width: 400px) {
   .company__item canvas,
@@ -1972,7 +1973,7 @@ body {
 @media only screen and (min-width: 1025px) {
   .company__item canvas,
   .company__item img {
-    height: 60px;
+    height: 80px;
   }
 }
 .company__item .dot {

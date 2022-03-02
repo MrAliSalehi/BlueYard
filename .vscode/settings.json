@@ -1,3 +1,4 @@
 {
-    "liveServer.settings.multiRootWorkspaceName": "BlueYard"
+    "liveServer.settings.multiRootWorkspaceName": "BlueYard",
+    "liveServer.settings.port": 5501
 }
