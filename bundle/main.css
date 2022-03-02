@@ -983,6 +983,7 @@ body {
 .sector__main-content.sector__main-content-reference {
   display: none;
 }
+/* default sector*/
 .sector__main-content .sector__logos-overview-opener {
   margin: 80px 0;
   text-transform: uppercase;
@@ -998,7 +999,7 @@ body {
   white-space: nowrap;
   pointer-events: all;
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 1025px) {
   .sector__main-content .sector__logos-overview-opener {
     font-size: 20px;
   }
@@ -1018,6 +1019,43 @@ body {
     display: none;
   }
 }
+/*submit button sector*/
+.sector__main-content .sector__logos-overview-opener-submit {
+  margin: 80px 0;
+  text-transform: uppercase;
+  border: 2px solid #565e7b;
+  padding: 20px 30px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 50px;
+  font-size: 16px;
+  font-family: Next;
+  font-weight: 500;
+  letter-spacing: 0.3em;
+  line-height: 1em;
+  white-space: nowrap;
+  pointer-events: all;
+}
+@media only screen and (max-width: 1025px) {
+  .sector__main-content .sector__logos-overview-opener-submit {
+    font-size: 20px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .sector__main-content .sector__logos-overview-opener-submit {
+    font-size: 14px;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .sector__main-content .sector__logos-overview-opener-submit {
+    font-size: 11px;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .sector__main-content .sector__logos-overview-opener-submit {
+    display: block;
+  }
+}
+/*submit button sector*/
 .sector__main-content[reference-data-sector="blueyard"] h3 {
   font-size: 50px;
   letter-spacing: 0.02em;
@@ -2171,4 +2209,10 @@ body {
 }
 .instaicon {
   max-width: 30px;
+}
+/*message form styles*/
+.buttonscontainer {
+  width: 100%;
+  left: 300px;
+  display: none;
 }
